@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/car-icon.png" type="image/x-icon" />
+    <title>RentMe. | Car Rental</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Font Awesome -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.0-web/css/fontawesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.0-web/css/brands.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./assets/fontawesome-free-6.4.0-web/css/solid.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/landing.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="nav__brand__logo__wrapper">
+          <img
+            class="brand__logo"
+            id="brand__logo"
+            src="/assets/brand-logo.png"
+            alt="brand__logo"
+          />
+        </div>
+        <div class="nav__links__wrapper" id="nav__links__wrapper">
+          <ul class="nav__menus__wrapper">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#featured">Featured</a>
+            </li>
+            <li>
+              <a href="#reviews">Reviews</a>
+            </li>
+          </ul>
+          <div class="nav__buttons__wrapper">
+            <button type="button">Login</button>
+            <button type="button">Sign up</button>
+          </div>
+        </div>
+        <i class="fa fa-bars hamburger__icon" id="hamburger__icon"></i>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__desc__wrapper">
+          <div class="hero__desc">
+            <h1>Discover convenience and quality at <span>RentMe.</span></h1>
+            We offer a diverse fleet of meticulously maintained vehicles,
+            exceptional service, and a seamless booking process. Experience the
+            freedom of the open road with us.
+          </div>
+          <div class="hero__btns">
+            <button type="button">Get Started</button>
+          </div>
+        </div>
+        <div class="hero__img__wrapper">
+          <div class="hero__img__inner"></div>
+          <img src="./assets/car-hero.png" alt="car__hero" />
+        </div>
+      </section>
+      <section class="services" id="services">
+        <h1 class="services__header"><span>Services</span>&nbsp;we offered</h1>
+        <div class="services__inner">
+          <div class="services__box">
+            <h2>Rent a car</h2>
+            <i class="fa-solid fa-car"></i>
+            <p>
+              Discover the world at your pace with our hassle-free Rent a Car
+              services. Your adventure, your way.
+            </p>
+            <button type="button">Find a car</button>
+          </div>
+          <div class="services__box">
+            <h2>Rent your car</h2>
+            <i class="fa-solid fa-key"></i>
+            <p>
+              Turn your wheels into income. Your vehicle, their experience.
+              Share the ride and earn.
+            </p>
+            <button type="button">Be a car rental owner</button>
+          </div>
+        </div>
+      </section>
+      <section class="featured" id="featured">
+        <h1 class="featured__header">
+          See our&nbsp;<span>featured</span>&nbsp;cars
+        </h1>
+        <div class="featured__inner">
+          <div class="featured__box">
+            <div class="featured__badge top__pick">Top Pick</div>
+            <i class="fa-solid fa-star"><span>5.0</span></i>
+            <div class="featured__img__wrapper">
+              <img src="./assets/cartest1.png" alt="featured-car-1" />
+            </div>
+            <div class="featured__desc">
+              <div class="featured__desc__name" title="Toyota Model ABC123">
+                <i class="fa-regular fa-car-side"></i>Toyota Model ABC123
+              </div>
+              <div class="featured__desc__brand">
+                <i class="fa-solid fa-id-card-clip"></i>Toyota
+              </div>
+              <div class="featured__desc__info">
+                <i class="fa-solid fa-users"></i>Rented by 5 people
+              </div>
+            </div>
+          </div>
+          <div class="featured__box">
+            <div class="featured__badge best__review">Best Review</div>
+            <i class="fa-solid fa-star"><span>4.2</span></i>
+            <div class="featured__img__wrapper">
+              <img src="./assets/cartest2.png" alt="featured-car-2" />
+            </div>
+            <div class="featured__desc">
+              <div class="featured__desc__name" title="Ford Model ABC123">
+                <i class="fa-solid fa-car-side"></i>Ford Model ABC123
+              </div>
+              <div class="featured__desc__brand">
+                <i class="fa-solid fa-id-card-clip"></i>Ford
+              </div>
+              <div class="featured__desc__info">
+                <i class="fa-solid fa-users"></i>Rented by 10 people
+              </div>
+            </div>
+          </div>
+          <div class="featured__box">
+            <div class="featured__badge new">New</div>
+            <i class="fa-solid fa-star"><span>0.0</span></i>
+            <div class="featured__img__wrapper">
+              <img src="./assets/cartest3.png" alt="featured-car-3" />
+            </div>
+            <div class="featured__desc">
+              <div class="featured__desc__name" title="Mitsubishi Model ABC123">
+                <i class="fa-regular fa-car-side"></i>Mitsubishi Model ABC123
+              </div>
+              <div class="featured__desc__brand">
+                <i class="fa-solid fa-id-card-clip"></i>Mitsubishi
+              </div>
+              <div class="featured__desc__info">
+                <i class="fa-solid fa-users"></i>Be the first to rent it!
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured__brands">
+          <h2>Available&nbsp;<span>brands</span>&nbsp;to choose for</h2>
+        </div>
+        <div class="featured__brands__img__wrapper">
+          <div>
+            <img src="./assets/car-logos/audi-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/bmw-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/ford-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/kia-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/mitsubishi-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/nissan-logo.png" alt="car__logo" />
+          </div>
+          <div>
+            <img src="./assets/car-logos/toyota-logo.png" alt="car__logo" />
+          </div>
+        </div>
+      </section>
+      <section class="reviews" id="reviews">
+        <div class="testimonials__wrapper">
+          <h1 class="testimonials__header">
+            Check out our&nbsp;<span>reviews</span>
+          </h1>
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="swiper-slide__innerbox">
+                  <div>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br />
+                    <span>
+                      I recently had the pleasure of utilizing a car rental
+                      service, and I must say, it exceeded my expectations in
+                      every aspect.
+                    </span>
+                  </div>
+                  <div class="reviewer__wrapper">
+                    <div class="reviewer__image">
+                      <img src="./assets/reviewers-imgs/img1.jpg" alt="img" />
+                    </div>
+                    <div class="reviewer__info">
+                      John Doe
+                      <br />
+                      <span> Rentee: Mitsubishi Model AB12 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__innerbox">
+                  <div>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br />
+                    <span>
+                      The car itself was in excellent condition, clean, and
+                      well-maintained. It offered a comfortable and smooth ride
+                      throughout my journey, providing the reliability and
+                      performance I expected.
+                    </span>
+                  </div>
+                  <div class="reviewer__wrapper">
+                    <div class="reviewer__image">
+                      <img src="./assets/reviewers-imgs/img2.jpg" alt="img" />
+                    </div>
+                    <div class="reviewer__info">
+                      James Fritz
+                      <br />
+                      <span> Rentee: Ford Model AA11 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__innerbox">
+                  <div>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br />
+                    <span>
+                      I highly recommend this car rental service to anyone in
+                      need of a convenient and reliable transportation solution.
+                    </span>
+                  </div>
+                  <div class="reviewer__wrapper">
+                    <div class="reviewer__image">
+                      <img src="./assets/reviewers-imgs/img3.jpg" alt="img" />
+                    </div>
+                    <div class="reviewer__info">
+                      Caramel Sugar
+                      <br />
+                      <span> Rentee: Toyota Model BB22 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide__innerbox">
+                  <div>
+                    <i class="fa-solid fa-quote-left"></i>
+                    <br />
+                    <span>
+                      As a proud car owner, I recently had the opportunity to
+                      explore a car rental service, and I must admit, it left me
+                      thoroughly impressed.
+                    </span>
+                  </div>
+                  <div class="reviewer__wrapper">
+                    <div class="reviewer__image">
+                      <img src="./assets/reviewers-imgs/img4.jpg" alt="img" />
+                    </div>
+                    <div class="reviewer__info">
+                      Mocha Coffee
+                      <br />
+                      <span> Owner: Toyota Model CC33 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="contact__us__wrapper">
+          <h2>REACH US</h2>
+          <div class="contact__us__form">
+            <div class="one">
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="two">
+              <input type="email" name="email" id="email" placeholder="Email" />
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+        <div class="footer__links__wrapper">
+          <img src="./assets/brand-logo.png" alt="img" />
+          <ul>
+            <a href="#">
+              <li>Home</li>
+            </a>
+            <a href="#services">
+              <li>Services</li>
+            </a>
+            <a href="#featured">
+              <li>Featured</li>
+            </a>
+            <a href="#reviews">
+              <li>Reviews</li>
+            </a>
+            <a href="">
+              <li>Terms and Conditions</li>
+            </a>
+          </ul>
+          <span>
+            <i class="fa-regular fa-copyright"></i>&nbsp;2023. Made by Paolo
+            Frencillo</span
+          >
+        </div>
+      </footer>
+    </main>
+
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script>
+      $("#hamburger__icon").on("click", () => {
+        let x = document.getElementById("nav__links__wrapper");
+        if (x.className === "nav__links__wrapper") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav__links__wrapper";
+        }
+      });
+
+      $(window).resize(() => {
+        if (document.body.clientWidth > 900) {
+          let x = document.getElementById("nav__links__wrapper");
+          x.className = "nav__links__wrapper";
+        }
+      });
+    </script>
+  </body>
+</html>
